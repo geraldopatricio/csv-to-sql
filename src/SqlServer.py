@@ -3,10 +3,10 @@ import pyodbc
 class SQLServer():
 
     def __init__(self):
-        server = '128.30.0.96' 
+        server = '10.xx.xx.xx' 
         database = 'csv_test' 
-        username = 'fortbrasil' 
-        password = 'Odlareg2930' 
+        username = 'xxx' 
+        password = 'xxx' 
         string_connection = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
         self.connection = pyodbc.connect(string_connection)
         self.cursor = self.connection.cursor()
