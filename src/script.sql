@@ -1,0 +1,23 @@
+
+USE [csv_test]
+GO
+
+/****** Object:  Table [dbo].[PLcontas]    Script Date: 21/12/2021 10:44:10 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PLcontas](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[conta_de] [nvarchar](30) NOT NULL,
+	[conta_para] [nvarchar](30) NOT NULL,
+ CONSTRAINT [PK_PLcontas] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
