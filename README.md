@@ -4,6 +4,7 @@ Conversor de CSV para SQLServer Table
 # Vídeo exemplo de uso e funcionalidade
 https://youtu.be/N_1CgBVkKFM
 
-<video id="player" playsinline controls>
-  <source src="https://youtu.be/N_1CgBVkKFM" type="video/mp4" />
-</video>
+<script src="https://youtu.be/N_1CgBVkKFM"></script>
+<script>
+  const player = new Plyr('#player');
+</script>
