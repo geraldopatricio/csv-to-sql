@@ -2,4 +2,4 @@
 Conversor de CSV para SQLServer Table
 
 # Vídeo exemplo de uso e funcionalidade
-https://youtu.be/_kLu8tWti38
+🧐 https://youtu.be/_kLu8tWti38
